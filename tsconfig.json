@@ -1,0 +1,68 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowUnusedLabels": false,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "paths": {
+      "@/mui/styled-engine": [
+        "node_modules/@mui/styled-engine"
+      ],
+      "@/components/*": [
+        "src/components/*"
+      ],
+      "@/pages/*": [
+        "src/pages/*"
+      ],
+      "@/store/*": [
+        "src/store/*"
+      ],
+      "@/api/*": [
+        "src/api/*"
+      ],
+      "@/styles/*": [
+        "src/styles/*"
+      ],
+      "@/utils/*": [
+        "src/utils/*"
+      ],
+      "@/constants": [
+        "src/constants.ts"
+      ],
+      "@/hooks": [
+        "src/hooks.ts"
+      ],
+    },
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "jest.config.ts",
+    "jest.setup.js",
+    "next-env.d.ts",
+    "src/pages/_app.tsx",
+    "types.d.ts",
+    "jest.config.",
+    "next.config.js",
+  ],
+  "exclude": [
+    "node_modules",
+  ],
+}
